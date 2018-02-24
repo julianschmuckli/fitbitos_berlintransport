@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "9830f043-b9aa-4400-bd5f-618e9d96e76a",
+    "appType": "app",
+    "appDisplayName": "Berlin Transport",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_internet",
+      "access_location"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Berlin Transport"
+      },
+      "de": {
+        "name": "Berlin Transport"
+      }
+    }
+  }
+}

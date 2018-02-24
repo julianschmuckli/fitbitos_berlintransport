@@ -1,0 +1,16 @@
+.background {
+  viewport-fill: black;
+}
+#name {
+  fill: white;
+  font-size: 32;
+  font-family: System-Bold;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+  text-overflow: ellipsis;
+}
+#stationboard{
+  fill: white;
+  font-family:System-Regular;
+}
