@@ -9,6 +9,10 @@
       "access_internet",
       "access_location"
     ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
     "i18n": {
       "en": {
         "name": "Berlin Transport"

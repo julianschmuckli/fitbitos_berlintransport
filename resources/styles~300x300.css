@@ -18,10 +18,11 @@
 }
 
 .time{
-  x: 265;
+  x: 220;
   y: 72;
 }
 
 .destination{
-  width: 265;
+  text-length:13;
+  width:230;
 }

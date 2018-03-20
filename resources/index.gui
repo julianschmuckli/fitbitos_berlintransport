@@ -9,37 +9,37 @@
       <section height="60" width="60" y="$">
         <rect fill="black" id="time_one-background_number" x="0" y="0" width="60" display="none" height="60"></rect>
         <text font-family="Colfax-Bold" id="time_one-number" x="50%" y="41" fill="black" font-size="30" display="none" text-anchor="middle">...</text><!-- Number -->
-        <text x="65" y="31" id="time_one-destination" font-family="System-Regular" fill="white" width="260" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
+        <text x="65" y="31" id="time_one-destination" font-family="System-Regular" fill="white" class="destination" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
         
         <text x="65" y="72" id="time_one-platform" font-family="System-Light" fill="white" width="120" display="none"></text><!-- Placeholder -->
-        <text x="265" y="72" id="time_one-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
+        <text class="time" id="time_one-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
       </section>
       
       <section height="60" width="60" y="$+30">
         <rect fill="black" id="time_two-background_number" x="0" y="0" width="60" display="none" height="60"></rect>
         <text font-family="Colfax-Bold" id="time_two-number" x="50%" y="41" fill="black" font-size="30" display="none" text-anchor="middle">...</text><!-- Number -->
-        <text x="65" y="31" id="time_two-destination" font-family="System-Regular" fill="white" width="260" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
+        <text x="65" y="31" id="time_two-destination" font-family="System-Regular" fill="white" class="destination" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
         
         <text x="65" y="72" id="time_two-platform" font-family="System-Light" fill="white" width="120" display="none"></text><!-- Placeholder -->
-        <text x="265" y="72" id="time_two-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
+        <text class="time" id="time_two-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
       </section>
       
       <section height="60" width="60" y="$+30">
         <rect fill="black" id="time_three-background_number" x="0" y="0" width="60" display="none" height="60"></rect>
         <text font-family="Colfax-Bold" id="time_three-number" x="50%" y="41" fill="black" font-size="30" display="none" text-anchor="middle">...</text><!-- Number -->
-        <text x="65" y="31" id="time_three-destination" font-family="System-Regular" fill="white" width="260" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
+        <text x="65" y="31" id="time_three-destination" font-family="System-Regular" fill="white" class="destination" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
         
         <text x="65" y="72" id="time_three-platform" font-family="System-Light" fill="white" width="120" display="none"></text><!-- Placeholder -->
-        <text x="265" y="72" id="time_three-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
+        <text class="time" id="time_three-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
       </section>
       
       <section height="60" width="60" y="$+30">
         <rect fill="black" id="time_four-background_number" x="0" y="0" width="60" display="none" height="60"></rect>
         <text font-family="Colfax-Bold" id="time_four-number" x="50%" y="41" fill="black" font-size="30" display="none" text-anchor="middle">...</text><!-- Number -->
-        <text x="65" y="31" id="time_four-destination" font-family="System-Regular" fill="white" width="260" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
+        <text x="65" y="31" id="time_four-destination" font-family="System-Regular" fill="white" class="destination" display="none" text-overflow="ellipsis">..................................</text><!-- Destination -->
         
         <text x="65" y="72" id="time_four-platform" font-family="System-Light" fill="white" width="120" display="none"></text><!-- Placeholder -->
-        <text x="265" y="72" id="time_four-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
+        <text class="time" id="time_four-time" font-family="System-Light" fill="white" width="120" display="none">.............</text><!-- Time -->
       </section>
     </use>
     <use href="#scrollview-item" height="50"></use>

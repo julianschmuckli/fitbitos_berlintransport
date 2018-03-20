@@ -21,9 +21,14 @@ function getStations(position) {
   latitude = position.coords.latitude;
   longitude = position.coords.longitude;
   
+  //@Test
+  /*var location_chosen = 0;
+  latitude = [52.516398, 52.571139][location_chosen];
+  longitude = [13.381962, 13.398327][location_chosen];*/
+  
   console.log("Location: "+latitude+", "+longitude);
   var url = "https://2.vbb.transport.rest/stations/nearby?latitude="+latitude+"&longitude="+longitude;
-  console.log("Loading data from "+url);
+  //console.log("Loading data from "+url);
   fetch(url).then(function (response) {
       response.text()
       .then(function(data) {
@@ -35,7 +40,7 @@ function getStations(position) {
           }
           if(data[i]["id"]!=undefined && searched_index >= index){
             var url2 = "https://2.vbb.transport.rest/stations/"+data[i]["id"]+"/departures?when=now&results=4";
-            console.log(url2);
+            //console.log(url2);
             fetch(url2)
             .then(function (response2) {
                 response2.text()

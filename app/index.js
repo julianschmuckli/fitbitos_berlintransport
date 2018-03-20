@@ -44,6 +44,8 @@ let time_four__destination = document.getElementById("time_four-destination");
 let time_four__platform = document.getElementById("time_four-platform");
 let time_four__time = document.getElementById("time_four-time");
 
+let distance_between_time_and_details = time_four__time.x;
+
 translateScreen("Lädt...", "", "Loading...", "");
 scrollview.height = 150;
 
@@ -221,6 +223,7 @@ messaging.peerSocket.onmessage = function(evt) {
 
 function translateScreen(name_text_de, content_text_de, name_text_en, content_text_en){
   switch(language){
+    case 'de-de':
     case 'de-DE':
       name.text = name_text_de;
       stationboard.text = content_text_de;
@@ -245,10 +248,10 @@ function changeTimeDisplay(){
     time_four__time.text = getMinutes(data.departures[3]);
     displayInMinutes = false;
   }else{
-    time_one__time.x = 265;
-    time_two__time.x = 265;
-    time_three__time.x = 265;
-    time_four__time.x = 265;
+    time_one__time.x = distance_between_time_and_details;
+    time_two__time.x = distance_between_time_and_details;
+    time_three__time.x = distance_between_time_and_details;
+    time_four__time.x = distance_between_time_and_details;
     
     time_one__time.text = getTime(data.departures[0]);
     time_two__time.text = getTime(data.departures[1]);
